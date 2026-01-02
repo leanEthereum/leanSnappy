@@ -1,4 +1,4 @@
-# py-snappy
+# leanSnappy
 
 Pure Python implementation of Google's Snappy compression algorithm.
 
@@ -54,15 +54,6 @@ uv run ruff check src/ tests/
 # Format code
 uv run ruff format src/ tests/
 ```
-
-## Algorithm
-
-Snappy is an LZ77-variant compression algorithm that prioritizes speed over compression ratio. Key characteristics:
-
-- **Block-based**: Data is processed in 64KB blocks
-- **Hash table**: O(1) match lookup using a simple hash function
-- **Greedy matching**: No optimal parsing or lazy evaluation
-- **Wire format**: Varint length prefix followed by literals and copy references
 
 ## References
 

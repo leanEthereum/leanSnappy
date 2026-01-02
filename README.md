@@ -2,13 +2,6 @@
 
 Pure Python implementation of Google's Snappy compression algorithm.
 
-## Features
-
-- **Pure Python**: No external dependencies or C extensions required
-- **Full compatibility**: Produces output compatible with Google's Snappy format
-- **Well documented**: Extensive inline documentation explaining the algorithm
-- **Thoroughly tested**: Comprehensive test suite using C++ Snappy test data
-
 ## Installation
 
 ```bash
